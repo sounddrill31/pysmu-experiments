@@ -61,6 +61,12 @@ pip install ar_iitm-1.0-py3-none-any.whl
 
 ************************
 
+Just run the sample python programs, or even the ones you code, from the command prompt:
+
+python rgb_clock_test.py
+
+************************
+
 Concept and Program by:
 Aditya Rao
 23f3000019@es.study.iitm.ac.in
