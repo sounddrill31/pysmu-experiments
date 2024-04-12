@@ -61,6 +61,16 @@ pip list
 
 ************************
 
+Download the whl file from this repo's whl folder, to your local computer.
+ar_iitm = Aditya Rao IIT Madras control transfer python library for the ADALM1000
+This wheel file will be updated regularly with more functionality, and is platform independent.
+
+install the ar_iitm-1.0-py3-none-any.whl wheel file using the command:
+
+pip install ar_iitm-1.0-py3-none-any.whl
+
+************************
+
 Connect the PIO1 pin to your chip's clock pin (eg. Pin 2 of the 74LS163)
 Connect the GND pin to the chip's ground. (eg. Pin 8 of the 74LS163)
 
