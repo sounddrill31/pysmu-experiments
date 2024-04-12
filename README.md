@@ -61,18 +61,6 @@ pip install ar_iitm-1.0-py3-none-any.whl
 
 ************************
 
-Connect the PIO1 pin to your chip's clock pin (eg. Pin 2 of the 74LS163)
-Connect the GND pin to the chip's ground. (eg. Pin 8 of the 74LS163)
-
-How to use :
-After all the installations just connect the ADALM1000 to USB port and run this program.
-
-To run this program, just execute clock.exe at the command prompt, or click on the 'clock' executable file.
-
-The blue notification LED will blink every second when the 1 Hz clock signal is being generated successfully.
-
-************************
-
 Concept and Program by:
 Aditya Rao
 23f3000019@es.study.iitm.ac.in
