@@ -1,12 +1,12 @@
 # Programming for the ADALM1000 in Python
-# EE1103L Electronics Lab - Addon Module
-# BS in Electronic Systems - IIT Madras
-# Course Instructor : Dr.Janakiraman Viraraghavan
-# Code repository by Aditya Rao, 23f3000019@es.study.iitm.ac.in
-# April 2024
-# Github : https://github.com/aditya-rao-iit-m/adalm1000
-# GNU GPL v3.0
-# April 2024
+EE1103L Electronics Lab - Addon Module
+BS in Electronic Systems - IIT Madras
+Course Instructor : Dr.Janakiraman Viraraghavan
+Code repository by Aditya Rao, 23f3000019@es.study.iitm.ac.in
+April 2024
+Github : https://github.com/aditya-rao-iit-m/adalm1000
+GNU GPL v3.0
+April 2024
 
 Important Note: 
 This program needs exclusive access to the ADALM1000 to function properly.
