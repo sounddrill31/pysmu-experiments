@@ -1,1 +1,0 @@
-https://test.pypi.org/simple/pysmu/
