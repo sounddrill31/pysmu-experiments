@@ -18,15 +18,34 @@ This program needs exclusive access to the ADALM1000 to function properly.
 ## New Instructions
 ### Windows
 
+
+> [!WARNING]
+> Special care care has to be taken while installing Python <!--3.10.10-->
+<!-- 
+Python Installation steps:
+1. First uninstall any older versions of python in your computer.
+2. Then while installing python ensure every check box is checked and selected.
+    - At the beginning, there is a check box to install python in the Windows Path. Very important to check this box.
+    - Then select custom installation, and check every box before proceeding.
+3. Then after installing python, REBOOT the computer before you proceed further.....
+
+1Hz Program Setup: TODO
+
+Heads up, I renamed 1hz clock to 1hzclock without the space. This was to make hyperlinking easier. Use it like this: [mytexthere](1hzclock/clock.exe)
+TODO
+-->
+
 <!--
+Personal Notes
 0. Install the latest Python3 from here: 
-
-
-
+1. Download 1hz file from here: 
+2. Follow instructions
+3. ...
  -->
 
 
 <!--
+Advanced
 > [!NOTE]
 > This allows you to use the latest python version with the pysmu. If you just need the 1Hz Clock then just download it from the link here and set it up: https://github.com/aditya-rao-iit-m/adalm1000/blob/main/1hzclock/clock.exe
 
