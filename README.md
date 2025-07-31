@@ -13,7 +13,7 @@ This program needs exclusive access to the ADALM1000 to function properly.
 - Pixelpulse / ALICE etc should not be open when running this program.  
 <!-- This program might not work properly with other versions of python. Its tested on Python ver 3.10.10 only, currently.-->
 - If the ADALM1000 is not found connected to USB, this program simply exits.
-[This is the Windows-64 bit version](1hz\ clock/clock.exe). Email me for Linux, Mac, Raspberry Pi versions with your OS name and version.
+[This is the Windows-64 bit version](1hzclock/clock.exe). Email me for Linux, Mac, Raspberry Pi versions with your OS name and version.
 
 ### New Instructions
 1. Install Prefix.Dev as per official instructions at https://pixi.sh/latest/#installation
