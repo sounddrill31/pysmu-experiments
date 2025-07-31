@@ -11,7 +11,8 @@ April 2024
 Important Note: 
 This program needs exclusive access to the ADALM1000 to function properly.
 Pixelpulse / ALICE etc should not be open when running this program.
-This program might not work properly with other versions of python. Its tested on Python ver 3.10.10 only, currently.
+This program might not work properly with other versions of python. Its tested on Python ver 3.10.10 and 3.13.5 only, at the moment.
+Thanks to https://sounddrill31.github.io/ for testing it on the newer version of Python.
 If the ADALM1000 is not found connected to USB, this program simply exits.
 This is the Windows-64 bit version. Email me for Linux, Mac, Raspberry Pi versions with your OS name and version.
 
@@ -21,6 +22,9 @@ This program needs Python 3.10.10 and libsmu with pysmu python bindings installe
 ************************
 
 Download link: 
+https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe
+Run above exe file setup / installer : python version 3.10.10
+or
 https://www.python.org/ftp/python/3.10.10/python-3.10.10-amd64.exe
 Run above exe file setup / installer : python version 3.10.10
 
