@@ -49,10 +49,10 @@ Download and run the installer for `libsmu` v1.0.4.
 
 ### 3. Install `pysmu` Python Bindings
 
-To install the `pysmu` python bindings, run the following command at the command prompt:
+To install the `pysmu` python bindings, run the following command at the command prompt after downloading the whl from the pysmu folder:
 
 ```bash
-pip install -i [https://test.pypi.org/simple/](https://test.pypi.org/simple/) pysmu
+pip install -i pysmu-1.0.4-cp39-cp39-win_amd64.whl
 ```
 
 You can verify the installation by running `pip list`, and you should see `pysmu 1.0.4` in the output.
