@@ -6,12 +6,7 @@
 #### Github : https://github.com/aditya-rao-iit-m/adalm1000
 #### GNU GPL v3.0
 
-1 Hz Clock Generator for ADALM1000 by Aditya Rao  
-23f3000019@es.study.iitm.ac.in - IIT Madras  
----
-**EE1103L Labs**  
-**BS in Electronic Systems**  
-April 2024  
+1 Hz Clock Generator for ADALM1000 (Windows OS) - April 2024  
 
 ---
 
