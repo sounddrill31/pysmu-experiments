@@ -15,22 +15,60 @@ This program needs exclusive access to the ADALM1000 to function properly.
 - If the ADALM1000 is not found connected to USB, this program simply exits.
 [This is the Windows-64 bit version](1hzclock/clock.exe). Email me for Linux, Mac, Raspberry Pi versions with your OS name and version.
 
-### New Instructions
-1. Install Prefix.Dev as per official instructions at https://pixi.sh/latest/#installation
-2. Run the following Command to let `pixi` setup your environment
+## New Instructions
+### Windows
+
+<!--
+0. Install the latest Python3 from here: 
+
+
+
+ -->
+
+
+<!--
+> [!NOTE]
+> This allows you to use the latest python version with the pysmu. If you just need the 1Hz Clock then just download it from the link here and set it up: https://github.com/aditya-rao-iit-m/adalm1000/blob/main/1hzclock/clock.exe
+
+Follow these steps to set up:
+0. Install `pixi` from the link here: https://github.com/prefix-dev/pixi/releases/latest/download/pixi-x86_64-pc-windows-msvc.msi
+1. Restart your system after a successful installation.
+2. git clone step
+3. pretty much the same as linux/osx from here
+-->
+### Linux/Mac
+0. Ensure that `python3` and `git` are already installed and are accessible from the terminal! 
+    - Linux: Use your default package manager. The command varies from system to system but it usually looks like this:
+        - `sudo apt update; sudo apt install git python3 # Debian/Ubuntu`
+        - `sudo zypper install python3 git # SUSE`
+        - `sudo pacman -S git python # Arch`
+        - `sudo dnf install python3 git # RHEL/Fedora`
+        - `sudo apk install python3 git # Alpine`
+    - Mac: Use brew to install these. That might need additional setup beforehand as well.
+        - `brew install git python`
+
+1. Install Prefix.Dev's `pixi` as per official instructions at https://pixi.sh/latest/#installation <!-- Instructions after here will work on Windows too provided deps like python3 and git are installed-->
+2. Prepare workspace with the command
+    ```bash
+    git clone https://github.com/aditya-rao-iit-m/adalm1000; cd adalm1000
+    ```
+    ```bash
+    cd adalm1000
+    ```
+3. Run the following Command to let `pixi` setup your environment
     ```bash
     pixi install
     ```
-3. Have `pixi` prepare the WHL files
+4. Have `pixi` prepare the WHL files
     ```bash
     pixi run setup_ar
     ```
-4. Start `rgb_clock_test.py`
+5. Start `rgb_clock_test.py`
     ```bash
     pixi run start
     ```
 
-### Old Instructions
+## Old Instructions
 
 > [!WARNING]
 > These are previous instructions, used before we introduced `pixi`. Follow them if you're having trouble with the above!
