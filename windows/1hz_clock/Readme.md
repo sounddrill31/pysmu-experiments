@@ -66,8 +66,8 @@ pip install ar_iitm-1.0-py3-none-any.whl
 ```
 ---
 ## Hardware Connections
-- Connect the **PIO1 pin** to your chip's clock pin (e.g., Pin 2 of the 74LS163).  
-- Connect the **GND pin** to the chip's ground (e.g., Pin 8 of the 74LS163).  
+- Connect the **PIO1 pin** to your chip's clock pin (eg. Pin 2 of the 74LS163).  
+- Connect the **GND pin** to the chip's ground (eg. Pin 8 of the 74LS163).  
 
 ---
 
