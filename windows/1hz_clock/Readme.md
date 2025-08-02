@@ -38,15 +38,15 @@ Special care has to be taken while installing Python 3.10.10:
 
 ---
 
-**Next install libsmu**  
+**Next install libsmu. The installer is available in the libsmu folder or you can download it from the link below:**  
 https://github.com/analogdevicesinc/libsmu/releases/download/v1.0.4/libsmu-1.0.4-setup-x64.exe  
 Run above exe file setup / installer : libsmu 1.0.4  
 
 ---
 
-**To install the pysmu python bindings, just run this at the command prompt:**
+**To install the pysmu python bindings, just run this at the command prompt after downloading the whl file from the pysmu folder:**
 ```bash
-pip install -i https://test.pypi.org/simple/pysmu
+pip install pysmu-1.0.4-cp39-cp39-win_amd64.whl
 ```
 
 You must be able to see pysmu 1.0.4 when you run this at the command prompt:
