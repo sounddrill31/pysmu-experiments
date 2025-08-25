@@ -10,5 +10,13 @@ preview = ["pixi-build"]
 start = "python rgb_clock_test.py"
 setup_ar = "python -m zipfile -e ./whl/ar_iitm-1.0-py3-none-any.whl ."
 
+[activation]
+scripts = ["startup_scripts/linux_setup.sh"]
+
+[target.win-64.activation]
+# Overwrite activation scripts only for windows
+scripts = ["startup_scripts/win_setup.bat"]
+
 [dependencies]
 libsmu = ">=1.0.3,<2"
+python = ">=3.13.5,<3.14"
