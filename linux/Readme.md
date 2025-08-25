@@ -43,13 +43,9 @@ This repository contains supplementary materials for the EE1103L Electronics Lab
     ```bash
     pixi install
     ```
-4. Have `pixi` prepare the WHL files
+4. Start `rgb_clock_test.py`
     ```bash
-    pixi run setup_ar
-    ```
-5. Start `rgb_clock_test.py`
-    ```bash
-    pixi run start
+    pixi run 1hz
     ```
 ---
 
