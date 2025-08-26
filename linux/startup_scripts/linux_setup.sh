@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-pixi run setup_ar
+python -m zipfile -e ./whl/ar_iitm-1.0-py3-none-any.whl .
